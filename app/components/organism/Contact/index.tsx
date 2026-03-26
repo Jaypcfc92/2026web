@@ -6,7 +6,7 @@ const Index = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     // Aquí puedes manejar el envío del formulario, por ejemplo, enviando los datos a un servidor o mostrando un mensaje de éxito.
     if (!name || !email || !message) {
