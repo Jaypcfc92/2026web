@@ -30,6 +30,7 @@ export default function Home() {
               orentation={false}
             />
           </div>
+          Hola Mundo
         </Layout>
         <div className='mt-20 mb-20 flex justify-center items-center'>
           <Price />
